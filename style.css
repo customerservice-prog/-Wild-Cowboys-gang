@@ -363,6 +363,26 @@ img { max-width: 100%; display: block; }
 
 .section-light .video-caption { background: #f0f0f0; }
 
+.video-fallback {
+  margin: 0;
+  padding: 0.5rem 1rem 0.75rem;
+  font-size: 0.8rem;
+  background: var(--dark-card);
+}
+
+.video-fallback a {
+  color: var(--accent-gold);
+  text-decoration: underline;
+}
+
+.section-light .video-fallback {
+  background: #e8e8e8;
+}
+
+.section-light .video-fallback a {
+  color: #c0392b;
+}
+
 /* ============ PULL QUOTE ============ */
 .pull-quote {
   margin: 3rem 0;
